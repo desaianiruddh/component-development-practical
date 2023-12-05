@@ -1,0 +1,88 @@
+.sidebar-wrapper {
+  align-items: center;
+  display: flex;
+  height: calc(100vh - 72px);
+  width: 257px;
+  .sidebar-menu-content {
+    background-color: #1a161f;
+    flex-shrink: 0;
+    height: 100%;
+    padding: 46px 0 408px 0;
+    width: 257px;
+    .menu-title {
+      color: #9ca4ab;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 0.008px;
+      line-height: 1.5;
+      margin: 20px 0 24px 32px;
+      white-space: nowrap;
+      &.library {
+        margin-top: 60px;
+      }
+    }
+    .menu-item {
+      align-items: center;
+      display: flex;
+      height: 24px;
+      margin: 0 110px 32px 0;
+      width: calc(100% - 110px);
+      .indicator {
+        flex-shrink: 0;
+        height: 24px;
+        margin-right: 28px;
+        width: 4px;
+        &.active {
+          background-color: #b43feb;
+        }
+      }
+      .menu-img-and-text {
+        align-items: center;
+        display: flex;
+        flex-shrink: 0;
+        height: 100%;
+
+        .menu-img {
+          flex-shrink: 0;
+          height: 24px;
+          margin-right: 12px;
+          object-fit: contain;
+          vertical-align: top;
+          width: 24px;
+        }
+        .menu-text {
+          color: #78828a;
+          font-family: Inter, 'Source Sans Pro';
+          font-size: 16px;
+          font-weight: 600;
+          letter-spacing: 0.008px;
+          line-height: 1.5;
+          white-space: nowrap;
+          &.active {
+            color: #f9f9f9;
+          }
+        }
+        .toggle-dark {
+          margin-left: 25px;
+          background-color: #b43feb;
+          border-radius: 100rem;
+          height: 100%;
+          overflow: hidden;
+          padding-left: 2rem;
+          position: relative;
+          width: 55px;
+          .switch {
+            background-color: #f9f9f9;
+            border: solid 0.2rem #b43feb;
+            border-radius: 100rem;
+            height: 100%;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
