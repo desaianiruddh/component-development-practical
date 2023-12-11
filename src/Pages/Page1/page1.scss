@@ -1,0 +1,31 @@
+.discovery-page-wrapper {
+  max-width: calc(100vw - 257px);
+  padding: 0px 0px 0px 50px;
+  overflow-y: hidden;
+  .discovery-category-wrapper {
+    width: 65%;
+    display: flex;
+    width: 65%;
+    margin: 40px 0px;
+    gap: 57px;
+    .category-card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 220px;
+      height: 120px;
+      padding: 16px 32px 16px 32px;
+      border-radius: 16px;
+      border: 1px solid #808080;
+      gap: 24px;
+      .dis-category-img {
+        width: 130px;
+        height: 80px;
+        object-fit: contain;
+      }
+    }
+  }
+  .series-player-wrapper {
+    width: 65%;
+  }
+}

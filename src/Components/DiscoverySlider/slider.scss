@@ -1,0 +1,40 @@
+.carousel-container {
+  padding: 10px;
+  height: 260px !important;
+  .carousel-action {
+    border: none;
+    background-color: transparent;
+  }
+  .slick-slider {
+    .slick-prev {
+      display: none !important;
+    }
+    .slick-next {
+      height: 100%;
+      width: 30px;
+      background: linear-gradient(
+        270deg,
+        #0d0c0f 30.66%,
+        rgba(13, 12, 15, 0) 100%
+      );
+    }
+  }
+  .slider-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 250px;
+    margin-bottom: 20px;
+
+    .slick-track {
+      display: flex;
+    }
+
+    .slick-track .slick-slide {
+      display: flex;
+      height: 250px;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

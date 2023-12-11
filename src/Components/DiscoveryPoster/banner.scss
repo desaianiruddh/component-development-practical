@@ -1,0 +1,100 @@
+.banner {
+  background: linear-gradient(270deg, rgba(13, 12, 15, 0) 16.73%, #0d0c0f 100%);
+  padding: 120px 64px 78.4px 50px;
+  width: 65%;
+  height: 370px;
+  border-radius: 24px;
+  background-image: url('../../Assests/page1Banner.png');
+  background-size: 100% 100%;
+  margin-top: 20px;
+  .details {
+    .category {
+      align-items: center;
+      background-color: rgba(252, 252, 252, 0.08);
+      border-radius: 16px;
+      color: #f9f9f9;
+      display: flex;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 16px;
+      font-weight: 500;
+      justify-content: center;
+      padding: 10px 20px;
+      width: 110px;
+    }
+    .title-description {
+      display: flex;
+      flex-direction: column;
+      .show-title {
+        color: #f9f9f9;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 0px;
+        margin-bottom: 13px;
+      }
+      .show-details {
+        color: #9ca4ab;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 22.4px;
+        font-weight: 500;
+        line-height: 0px;
+        white-space: nowrap;
+      }
+    }
+    .cta-section {
+      align-items: center;
+      margin-top: 20px;
+      display: flex;
+      width: 100%;
+      .watch-cta {
+        align-items: center;
+        background-color: #b43feb;
+        border-radius: 24px;
+        display: flex;
+        justify-content: center;
+        height: 60px;
+        margin-right: 51px;
+        overflow: hidden;
+        padding: 15px 20px;
+        .play-icon {
+          height: 30px;
+          width: 30px;
+          object-fit: contain;
+          margin: 0 5px 0 0;
+          object-fit: contain;
+          vertical-align: top;
+        }
+        .cta-label {
+          color: #f9f9f9;
+          font-family: Inter, 'Source Sans Pro';
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 24px;
+        }
+      }
+      .watchlist-cta {
+        align-items: center;
+        display: flex;
+        height: calc(100% - 51.2px);
+        margin: 25.6px 0;
+        .save-icon {
+          height: 30px;
+          width: 30px;
+          object-fit: contain;
+          margin: 0 5px 0 0;
+          object-fit: contain;
+          vertical-align: top;
+        }
+        .watchlist-label {
+          color: #f9f9f9;
+          font-family: Inter, 'Source Sans Pro';
+          font-size: 18px;
+          font-weight: 600;
+          margin: 0 5px 0 0;
+          line-height: 33px;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}
