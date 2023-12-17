@@ -1,12 +1,18 @@
 * {
   box-sizing: border-box;
 }
- body {
+body {
   margin: 0px;
   padding: 0px;
   background-color: #0d0c0f;
- }
+}
 
- .content {
+.content {
   display: flex;
- }
+}
+
+.next-page-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
