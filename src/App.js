@@ -4,6 +4,7 @@ import Sidebar from './Components/Sidebar/Sidebar';
 import Page1 from './Pages/Page1';
 import './App.css';
 import Page2 from './Pages/Page2';
+import Page3 from './Pages/Page3';
 
 const App = () => {
   return (
@@ -18,6 +19,11 @@ const App = () => {
       <Navbar />
       <div className="content">
         <Page2 />
+      </div>
+      {/* Page 3 */}
+      <Navbar />
+      <div className="content">
+        <Page3 />
       </div>
     </div>
   );

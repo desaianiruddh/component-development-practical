@@ -1,0 +1,58 @@
+.page3-wrapper {
+  width: 100%;
+  height: calc(100vh - 72px);
+  color: #f9f9f9;
+  .premium-access-section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-top: 30px;
+
+    .access-frame {
+      align-items: center;
+      background-color: #1a161f;
+      border-radius: 26px;
+      color: #ffcd19;
+      display: flex;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 14px;
+      font-weight: 500;
+      height: 38px;
+      justify-content: center;
+      letter-spacing: 0.007px;
+      margin: 0 860px;
+      white-space: nowrap;
+      width: 145px;
+    }
+
+    .app-name {
+      align-items: center;
+      color: #f9f9f9;
+      display: flex;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 40px;
+      font-weight: 500;
+      justify-content: center;
+      letter-spacing: 0.02px;
+      line-height: 77px;
+      white-space: nowrap;
+    }
+
+    .choose-plan-description {
+      color: #d1d8dd;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 0.008px;
+      line-height: 38px;
+      text-align: center;
+    }
+  }
+  .plan-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+    gap: 30px;
+  }
+}
