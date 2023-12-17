@@ -5,8 +5,8 @@ import navUserIco from '../../Assests/NavUserImage.png';
 import searchIco from '../../Assests/Search.png';
 import './Navabar.scss';
 
-const Navbar = () => {
-  return (
+const Navbar = ({ movieList }) => {
+  return movieList ? (
     <div className="navbar-wrapper">
       <div className="cinemax">CineMax</div>
       <div className="menu">
@@ -27,6 +27,10 @@ const Navbar = () => {
         </div>
         <img className="arrow-down" src={arrowDownIco} />
       </div>
+    </div>
+  ) : (
+    <div className="navbar-wrapper show-only-cinemax">
+      <div className="cinemax">CineMax</div>
     </div>
   );
 };
