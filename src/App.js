@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
+import { Button } from 'antd';
+
 import Navbar from './Components/Navbar/Navbar';
 import Sidebar from './Components/Sidebar/Sidebar';
 import Page1 from './Pages/Page1';
-import './App.css';
 import Page2 from './Pages/Page2';
 import Page3 from './Pages/Page3';
-import { Button } from 'antd';
+import Page4 from './Pages/Page4';
+import './App.css';
 
 const App = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -15,7 +17,7 @@ const App = () => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
       setScroll(scrollY);
-      setIsVisible(scrollY < window.innerHeight * 2);
+      setIsVisible(scrollY < window.innerHeight * 3);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -47,6 +49,11 @@ const App = () => {
       <Navbar />
       <div className="content">
         <Page3 />
+      </div>
+      {/* Page 4 */}
+      <Navbar />
+      <div className="content">
+        <Page4 />
       </div>
       {/* Scroll Button */}
       <Button
