@@ -1,0 +1,100 @@
+.top-movie-list {
+  align-items: center;
+  display: flex;
+  height: 137px;
+  width: 411px;
+
+  .movie-image {
+    border-radius: 16px;
+    height: 137px;
+    margin-right: 16px;
+    object-fit: cover;
+    vertical-align: top;
+    width: 112px;
+  }
+
+  .movie-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 283px;
+
+    .content-frame {
+      align-items: center;
+      border: solid 1px #29282f;
+      border-radius: 8px;
+      box-sizing: border-box;
+      color: #d1d8dd;
+      display: flex;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 12px;
+      font-weight: 500;
+      justify-content: center;
+      letter-spacing: 0.006rem;
+      line-height: 1.6667;
+      white-space: nowrap;
+      width: 52px;
+    }
+
+    .movie-title {
+      width: 70%;
+      color: #f9f9f9;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 0.008rem;
+      line-height: 1.5;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .movie-genre {
+      align-items: center;
+      display: flex;
+      margin-right: 225px;
+
+      .genre-icon {
+        height: 16px;
+        margin-right: 4px;
+        object-fit: contain;
+        vertical-align: top;
+        width: 16px;
+      }
+
+      .genre-text {
+        color: #78828a;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.006rem;
+        line-height: 1.6667;
+        white-space: nowrap;
+      }
+    }
+
+    .movie-rating {
+      align-items: center;
+      display: flex;
+      margin-right: 234px;
+
+      .star-icon {
+        height: 20px;
+        margin-right: 4px;
+        object-fit: contain;
+        vertical-align: top;
+        width: 32px;
+      }
+
+      .rating-text {
+        color: #f9f9f9;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0.008rem;
+        line-height: 1.5;
+        white-space: nowrap;
+      }
+    }
+  }
+}

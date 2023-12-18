@@ -1,0 +1,89 @@
+.discovery-page-wrapper {
+  max-width: calc(100vw - 257px);
+  padding: 30px 0px 0px 50px;
+  overflow-y: hidden;
+  display: flex;
+  gap: 90px;
+  .main-content {
+    width: 65%;
+    .discovery-category-wrapper {
+      width: 100%;
+      display: flex;
+      margin: 40px 0px;
+      gap: 57px;
+      .category-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 220px;
+        height: 120px;
+        padding: 16px 32px 16px 32px;
+        border-radius: 16px;
+        border: 1px solid #808080;
+        gap: 24px;
+        .dis-category-img {
+          width: 130px;
+          height: 80px;
+          object-fit: contain;
+        }
+      }
+    }
+    .series-player-wrapper {
+      width: 100%;
+    }
+  }
+  .right-side-bar {
+    margin-left: 30px;
+    .top-movies-text {
+      margin-bottom: 30px;
+      color: #f9f9f9;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 24px;
+      font-weight: 700;
+      height: 28px;
+      width: 100%;
+    }
+    .top-movies-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .see-all-btn {
+      margin: 25px 0px;
+      align-items: center;
+      border: solid 1px #b43feb;
+      border-radius: 38px;
+      color: #b43feb;
+      display: flex;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 25px;
+      font-weight: 600;
+      height: 48px;
+      justify-content: center;
+      line-height: 1.5;
+      width: 80%;
+    }
+    .chips-group {
+      align-items: center;
+      gap: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      .chips {
+        align-items: center;
+        background-color: #171725;
+        border-radius: 26px;
+        color: #f9f9f9;
+        display: flex;
+        flex-shrink: 0;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 16px;
+        font-weight: 600;
+        justify-content: center;
+        line-height: 22.4px;
+        white-space: nowrap;
+        padding: 10px 30px;
+      }
+    }
+  }
+}
